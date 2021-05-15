@@ -20,7 +20,7 @@ public class SearchByKeywordStory {
 
     @Steps
     public EndUserSteps anna;
-
+/*
     @Issue("#WIKI-1")
     @Test
     public void searching_by_keyword_apple_should_display_the_corresponding_article() {
@@ -40,4 +40,5 @@ public class SearchByKeywordStory {
     @Pending @Test
     public void searching_by_ambiguious_keyword_should_display_the_disambiguation_page() {
     }
+    */
 } 

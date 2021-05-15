@@ -1,6 +1,6 @@
-<?xml version="1.0" encoding="UTF-8"?><testsuite errors="0" failures="1" name="com.features.search.LoginTest" skipped="0" tests="1" time="11.01" timestamp="2021-05-15 02:06:18"><testcase classname="com.features.search.LoginTest" name="Login test successful"><failure message="Expected enabled element was not enabled" type="net.thucydides.core.webdriver.exceptions.ElementShouldBeEnabledException">Expected enabled element was not enabled</failure><system-err>Expected enabled element was not enabled&#13;
-com.pages.LoginPage.clickSubmitButton(LoginPage.java:43)&#13;
-com.steps.serenity.LoginSteps.clickLoginButton(LoginSteps.java:22)&#13;
-com.steps.serenity.LoginSteps.login(LoginSteps.java:27)&#13;
-com.features.search.LoginTest.loginTestSuccessful(LoginTest.java:25)&#13;
+<?xml version="1.0" encoding="UTF-8"?><testsuite errors="1" failures="0" name="com.features.search.LoginTest" skipped="0" tests="2" time="34.44" timestamp="2021-05-15 03:32:27"><testcase classname="com.features.search.LoginTest" name="Login test successful"><error message="Keys to send should be a not null CharSequence" type="java.lang.IllegalArgumentException">Keys to send should be a not null CharSequence</error><system-err>Keys to send should be a not null CharSequence&#13;
+lab5@1.0/com.pages.LoginPage.typePassword(LoginPage.java:35)&#13;
+lab5@1.0/com.steps.serenity.LoginSteps.typePassword(LoginSteps.java:16)&#13;
+lab5@1.0/com.steps.serenity.LoginSteps.login(LoginSteps.java:41)&#13;
+lab5@1.0/com.features.search.LoginTest.loginTestSuccessful(LoginTest.java:32)&#13;
 </system-err></testcase></testsuite>

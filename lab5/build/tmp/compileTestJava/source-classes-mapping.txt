@@ -2,15 +2,15 @@ com/features/search/package-info.java
  com.features.search.package-info
 com/pages/LLoginPage.java
  com.pages.LLoginPage
-com/steps/serenity/EndUserSteps.java
- com.steps.serenity.EndUserSteps
 com/pages/LoginPage.java
  com.pages.LoginPage
-com/features/search/SearchByKeywordStory.java
- com.features.search.SearchByKeywordStory
-com/features/search/LoginTest.java
- com.features.search.LoginTest
-com/steps/serenity/LoginSteps.java
- com.steps.serenity.LoginSteps
 com/pages/DictionaryPage.java
  com.pages.DictionaryPage
+com/steps/serenity/LoginSteps.java
+ com.steps.serenity.LoginSteps
+com/features/search/LoginTest.java
+ com.features.search.LoginTest
+com/steps/serenity/EndUserSteps.java
+ com.steps.serenity.EndUserSteps
+com/features/search/SearchByKeywordStory.java
+ com.features.search.SearchByKeywordStory

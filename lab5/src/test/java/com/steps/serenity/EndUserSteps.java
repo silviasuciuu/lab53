@@ -32,9 +32,34 @@ public class EndUserSteps {
         dictionaryPage.open();
     }
 
+
+
     @Step
     public void looks_for(String term) {
         enters(term);
         starts_search();
+    }
+
+
+    @Step
+    public void typeUser(String username){
+        dictionaryPage.typeUser(username);
+    }
+
+    @Step
+    public void typePassword(String password){
+        dictionaryPage.typePassword(password);
+    }
+
+    @Step
+    public void clickLoginButton()
+    {
+        dictionaryPage.clickLoginButton();
+    }
+
+    @Step
+    public void clickSubmitButton()
+    {
+        dictionaryPage.clickSubmitButton();
     }
 }

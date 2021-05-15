@@ -2,6 +2,7 @@ package com.steps.serenity;
 
 import com.pages.LoginPage;
 import net.thucydides.core.annotations.Step;
+import org.junit.Assert;
 
 public class LoginSteps {
     LoginPage loginPage;
@@ -19,14 +20,40 @@ public class LoginSteps {
     @Step
     public void clickLoginButton()
     {
+        loginPage.clickLoginButton();
+    }
+
+    @Step
+    public void clickLogoutButton()
+    {
+        loginPage.clickLogoutButton();
+    }
+
+    @Step
+    public void clickSubmitButton()
+    {
         loginPage.clickSubmitButton();
     }
 
     @Step
+    public void is_the_home_page() {
+        loginPage.open();
+    }
+
+
+    @Step
     public void login(String username,String password){
-        clickLoginButton();
+           clickLoginButton();
             typeUser(username);
             typePassword(password);
-            //clickLoginButton();
+            clickSubmitButton();
     }
+
+    @Step
+    public void logout(){
+        clickLogoutButton();
+    }
+
+
+
 }

@@ -160,7 +160,7 @@
             <a href="7ea0a5e2d679b9deeda9910ae4a9bcd3a281e0d908303a9e16e486103e98880c.html"><i class="fa fa-comments-o"></i> Capabilities</a>
         </li>
     </ul>
-    <span class="date-and-time"><a href="build-info.html"><i class="fa fa-info-circle"></i></a> Report generated 15-05-2021 14:06</span>
+    <span class="date-and-time"><a href="build-info.html"><i class="fa fa-info-circle"></i></a> Report generated 15-05-2021 16:12</span>
     <br style="clear:left"/>
 </div>
 
@@ -195,10 +195,10 @@
                 <table class="outcome-header">
                     <tr>
                         <td colspan="2" class="test-title-bar">
-                            <span class="outcome-icon"><a href='##beforetable'><i class='fa fa-times-circle failure-icon fa-2x' title='FAILURE'></i></a></span>
+                            <span class="outcome-icon"><a href='##beforetable'><i class='fa fa-exclamation-triangle error-icon fa-2x' title='ERROR'></i></a></span>
                             <span class="test-case-title">
-                                <span class="failing-color">Login test successful
-                                    <span class="related-issue-title">(#Login-1)</span>
+                                <span class="error-color">Login test successful
+                                    <span class="related-issue-title">(#Login-Success)</span>
                                 </span>
                             </span>
 
@@ -211,6 +211,10 @@
 
     <div class="clr"></div>
 
+    <div class="story-title">
+        <h3>Scenario:</h3>
+        <div class="scenario">Is the home page<br>Login: &lt;user&gt;, &lt;password&gt;<br>Check you are logged in<br>Logout</div>
+    </div>
 
     <div id="beforetable"></div>
     <div id="contenttilttle">
@@ -220,7 +224,7 @@
         <div class="table">
             <div class="row">
                 <div class="col-sm-10" style="padding-left:1.5em; padding-top:0.5em; padding-bottom:0.5em;">
-                    <span class="error-message error-message-title">Element should be enabled exception: Expected enabled element was not enabled</span>
+                    <span class="error-message error-message-title">Element should be enabled exception: Expected enabled element was not enabledBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'System info: host: 'DESKTOP-ID529IK', ip: '192.168.0.106', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '14.0.2'Driver info: driver.version: unknownBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'System info: host: 'DESKTOP-ID529IK', ip: '192.168.0.106', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '14.0.2'Driver info: driver.version: unknown</span>
                 </div>
                 <div class="col-sm-2">
                     <a class="btn btn-warning details-button" data-toggle="collapse" href="#stacktraceModal-overall""
@@ -240,16 +244,9 @@
                 </div>
                 <div class="card-body">
                     <div>
-                        <pre>com.pages.LoginPage.clickSubmitButton(LoginPage.java:43)<br />com.steps.serenity.LoginSteps.clickLoginButton(LoginSteps.java:22)<br />com.steps.serenity.LoginSteps.login(LoginSteps.java:27)<br />com.features.search.LoginTest.loginTestSuccessful(LoginTest.java:25)<br /></pre>
+                        <pre>com.pages.LoginPage.typePassword(LoginPage.java:40)<br />com.steps.serenity.LoginSteps.typePassword(LoginSteps.java:17)<br />com.steps.serenity.LoginSteps.login(LoginSteps.java:48)<br />com.features.search.LoginTest.loginTestSuccessful(LoginTest.java:36)<br /></pre>
                     </div>
 
-                    <h4>
-                        Caused by: org.openqa.selenium.TimeoutException
-                    </h4>
-                    <div>
-                            <pre>Expected condition failed: waiting for LoginPage.loginSubmit to be enabled (tried for 5 second(s) with 100 milliseconds interval)</pre>
-                        <pre>com.pages.LoginPage.clickSubmitButton(LoginPage.java :43)<br />com.steps.serenity.LoginSteps.clickLoginButton(LoginSteps.java :22)<br />com.steps.serenity.LoginSteps.login(LoginSteps.java :27)<br />com.features.search.LoginTest.loginTestSuccessful(LoginTest.java :25)<br /></pre>
-                    </div>
                 </div>
             </div>
         </div>
@@ -257,13 +254,33 @@
 
 
                 <div class="panel-body">
-                    <a href="pagesource17318376799710604906.html.txt" target="_blank" class="btn btn-info">HTML Source</a>
+                    <a href="pagesource2252000755128869474.html.txt" target="_blank" class="btn btn-info">HTML Source</a>
                 </div>
             </div>
         <div class="slider-wrapper theme-default">
             <div id="slider">
-                <img src="bf72a5cb9220866f451721e724d11b5987aa259a0357ba24d21b9a36fb8c39d5.png" title=" Login: siir2613@scs.ubbcluj.ro, e!k5mLQhJ5V7suB" width="1034"/>
-                <img src="bf72a5cb9220866f451721e724d11b5987aa259a0357ba24d21b9a36fb8c39d5.png" title=" Click login button: <span class='failing-color'>FAILURE</span>" width="1034"/>
+                <img src="4eaa760d1961f3bf47ceaaea22714610ca0b07638a01f9f60a24f63fa07cfe39.png" title=" Login test successful " width="1034"/>
+                <img src="4eaa760d1961f3bf47ceaaea22714610ca0b07638a01f9f60a24f63fa07cfe39.png" title=" Is the home page" width="1034"/>
+                <img src="0b76be27a5eb61626c92cd3f8d8d26ca5eefb5eba1824c3f35204bea9582b210.png" title=" Is the home page (completed)" width="1034"/>
+                <img src="0b76be27a5eb61626c92cd3f8d8d26ca5eefb5eba1824c3f35204bea9582b210.png" title=" Login: Tmir2624, Tmir262412345" width="1034"/>
+                <img src="ae70f1448f9461a1352ef952d49aa6165853918b844f930cd7df92859f8a502e.png" title=" Click login button" width="1034"/>
+                <img src="ae70f1448f9461a1352ef952d49aa6165853918b844f930cd7df92859f8a502e.png" title=" Type user: Tmir2624" width="1034"/>
+                <img src="1c40145eb6e9609f299d2f3738d2497e1bd8f4cf43e6af43f1456c878c2cfeb6.png" title=" Type user: Tmir2624 (completed)" width="1034"/>
+                <img src="1c40145eb6e9609f299d2f3738d2497e1bd8f4cf43e6af43f1456c878c2cfeb6.png" title=" Type password: Tmir262412345" width="1034"/>
+                <img src="4eaa760d1961f3bf47ceaaea22714610ca0b07638a01f9f60a24f63fa07cfe39.png" title=" Type password: Tmir262412345 (completed)" width="1034"/>
+                <img src="7c887ed2b251405018a84d639930cf0f173c254697f0654e5d9f8a72753676a7.png" title=" Login test successful " width="1034"/>
+                <img src="7c887ed2b251405018a84d639930cf0f173c254697f0654e5d9f8a72753676a7.png" title=" Is the home page" width="1034"/>
+                <img src="0b76be27a5eb61626c92cd3f8d8d26ca5eefb5eba1824c3f35204bea9582b210.png" title=" Is the home page (completed)" width="1034"/>
+                <img src="ae70f1448f9461a1352ef952d49aa6165853918b844f930cd7df92859f8a502e.png" title=" Login: cont, parola" width="1034"/>
+                <img src="ae70f1448f9461a1352ef952d49aa6165853918b844f930cd7df92859f8a502e.png" title=" Click login button" width="1034"/>
+                <img src="ae70f1448f9461a1352ef952d49aa6165853918b844f930cd7df92859f8a502e.png" title=" Type user: cont" width="1034"/>
+                <img src="62d3826bb5d16cac965bed91121f71933f7fee4a1497816afe520a78c83e46ba.png" title=" Type user: cont (completed)" width="1034"/>
+                <img src="62d3826bb5d16cac965bed91121f71933f7fee4a1497816afe520a78c83e46ba.png" title=" Type password: parola" width="1034"/>
+                <img src="cf7ea7266fb8192fecbea10ed7796ae1ba9338d9685520499fb5cf0327b84445.png" title=" Type password: parola (completed)" width="1034"/>
+                <img src="cf7ea7266fb8192fecbea10ed7796ae1ba9338d9685520499fb5cf0327b84445.png" title=" Click submit button" width="1034"/>
+                <img src="a2fc3ea38a2dae64806a3be8eeace07aecb6c5acdfc2f3a4f3f8fafb9c8724b1.png" title=" Click submit button (completed)" width="1034"/>
+                <img src="a2fc3ea38a2dae64806a3be8eeace07aecb6c5acdfc2f3a4f3f8fafb9c8724b1.png" title=" Login: cont, parola (completed)" width="1034"/>
+                <img src="a2fc3ea38a2dae64806a3be8eeace07aecb6c5acdfc2f3a4f3f8fafb9c8724b1.png" title=" Check you are logged in: <span class='error-color'>ERROR</span>" width="1034"/>
             </div>
         </div>
 
