@@ -1,7 +1,0 @@
--------------------------------------------------------------------------------
-Test set: com.features.search.LoginTest
--------------------------------------------------------------------------------
-Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 11.967 s <<< FAILURE! - in com.features.search.LoginTest
-Test mechanism  Time elapsed: 0.537 s  <<< ERROR!
-java.lang.NullPointerException
-

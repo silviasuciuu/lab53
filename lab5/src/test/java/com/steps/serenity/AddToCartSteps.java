@@ -1,7 +1,6 @@
 package com.steps.serenity;
 
 import com.pages.AddToCartPage;
-import com.pages.EmailPage;
 import net.thucydides.core.annotations.Step;
 
 public class AddToCartSteps {

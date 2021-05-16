@@ -1,13 +1,9 @@
 com\steps\serenity\LoginSteps.class
-com\pages\EmailPage.class
 com\steps\serenity\HeaderSteps.class
 com\features\search\package-info.class
-com\steps\serenity\EndUserSteps.class
 com\pages\HeaderPage.class
 com\pages\AddToCartPage.class
 com\features\search\LoginTest.class
 com\pages\LoginPage.class
-com\steps\serenity\EmailSteps.class
 com\steps\serenity\AddToCartSteps.class
 com\features\search\AddToCartTest.class
-com\pages\DictionaryPage.class

@@ -1,7 +1,0 @@
--------------------------------------------------------------------------------
-Test set: com.features.search.SendMessageTest
--------------------------------------------------------------------------------
-Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.003 s <<< FAILURE! - in com.features.search.SendMessageTest
-com.features.search.SendMessageTest.initializationError  Time elapsed: 0 s  <<< ERROR!
-java.lang.IllegalStateException: Parameterized test should have at least one @Test method
-

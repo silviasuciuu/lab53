@@ -19,10 +19,12 @@ public class AddToCartPage extends PageObject {
 
     @FindBy(id = "add-to-cart-sauce-labs-bike-light")
     private WebElementFacade addToCartButton;
-
+/*
     @FindBy(id = "shopping_cart_container")
     private WebElementFacade shoppingCart;
 
+
+ */
     @FindBy(id = "remove-sauce-labs-backpack")
     private WebElementFacade removeButton;
 
@@ -36,7 +38,8 @@ public class AddToCartPage extends PageObject {
 
 
     public void clickShoppingCartButton() {
-        shoppingCart.click();
+        //shoppingCart.click();
+        openUrl("https://www.saucedemo.com/cart.html");
     }
 
     public void clickRemoveCartButton() {
