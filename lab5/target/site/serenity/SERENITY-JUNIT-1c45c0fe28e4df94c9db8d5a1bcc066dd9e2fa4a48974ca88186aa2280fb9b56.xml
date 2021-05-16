@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?><testsuite errors="4" failures="2" name="com.features.search.LoginTest" skipped="0" tests="6" time="208.62" timestamp="2021-05-15 04:20:52"><testcase classname="com.features.search.LoginTest" name="Login test failed"><error message="Expected enabled element was not enabled&#10;Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'&#10;System info: host: 'DESKTOP-ID529IK', ip: '192.168.0.106', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '14.0.2'&#10;Driver info: driver.version: unknown&#10;Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'&#10;System info: host: 'DESKTOP-ID529IK', ip: '192.168.0.106', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '14.0.2'&#10;Driver info: driver.version: unknown" type="net.thucydides.core.webdriver.exceptions.ElementShouldBeEnabledException">Expected enabled element was not enabled
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-ID529IK', ip: '192.168.0.106', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '14.0.2'
+Driver info: driver.version: unknown
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-ID529IK', ip: '192.168.0.106', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '14.0.2'
+Driver info: driver.version: unknown</error><system-err>Expected enabled element was not enabled
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-ID529IK', ip: '192.168.0.106', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '14.0.2'
+Driver info: driver.version: unknown
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-ID529IK', ip: '192.168.0.106', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '14.0.2'
+Driver info: driver.version: unknown&#13;
+lab5@1.0/com.pages.LoginPage.clickSubmitButton(LoginPage.java:48)&#13;
+lab5@1.0/com.steps.serenity.LoginSteps.clickSubmitButton(LoginSteps.java:35)&#13;
+lab5@1.0/com.features.search.LoginTest.loginTestFailed(LoginTest.java:49)&#13;
+</system-err></testcase><testcase classname="com.features.search.LoginTest" name="Login test successful"><error message="Expected enabled element was not enabled&#10;Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'&#10;System info: host: 'DESKTOP-ID529IK', ip: '192.168.0.106', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '14.0.2'&#10;Driver info: driver.version: unknown&#10;Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'&#10;System info: host: 'DESKTOP-ID529IK', ip: '192.168.0.106', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '14.0.2'&#10;Driver info: driver.version: unknown" type="net.thucydides.core.webdriver.exceptions.ElementShouldBeEnabledException">Expected enabled element was not enabled
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-ID529IK', ip: '192.168.0.106', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '14.0.2'
+Driver info: driver.version: unknown
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-ID529IK', ip: '192.168.0.106', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '14.0.2'
+Driver info: driver.version: unknown</error><system-err>Expected enabled element was not enabled
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-ID529IK', ip: '192.168.0.106', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '14.0.2'
+Driver info: driver.version: unknown
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-ID529IK', ip: '192.168.0.106', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '14.0.2'
+Driver info: driver.version: unknown&#13;
+lab5@1.0/com.pages.LoginPage.typeUser(LoginPage.java:36)&#13;
+lab5@1.0/com.steps.serenity.LoginSteps.typeUser(LoginSteps.java:12)&#13;
+lab5@1.0/com.steps.serenity.LoginSteps.login(LoginSteps.java:47)&#13;
+lab5@1.0/com.features.search.LoginTest.loginTestSuccessful(LoginTest.java:36)&#13;
+</system-err></testcase></testsuite>

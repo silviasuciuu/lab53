@@ -132,7 +132,7 @@
                 > <span class="truncate-40"><a
                     href="dba9098d23aa274f6b66845968cc545344a1440e2e166fba21b949d56f9b36c4.html">Login Test</a></span>
                 > <span class="truncate-60"><a
-                    href="c4dceb5416f83764c2594ef4913ebdc2d25533e7b401d38b366a0f660b337fe4.html">Login test successful </a></span>
+                    href="1c45c0fe28e4df94c9db8d5a1bcc066dd9e2fa4a48974ca88186aa2280fb9b56.html">Login test failed </a></span>
                 > Screenshots
             </span>
         </div>
@@ -197,8 +197,8 @@
                         <td colspan="2" class="test-title-bar">
                             <span class="outcome-icon"><a href='##beforetable'><i class='fa fa-exclamation-triangle error-icon fa-2x' title='ERROR'></i></a></span>
                             <span class="test-case-title">
-                                <span class="error-color">Login test successful
-                                    <span class="related-issue-title">(#Login-Success)</span>
+                                <span class="error-color">Login test failed
+                                    <span class="related-issue-title">(#Login-Fail)</span>
                                 </span>
                             </span>
 
@@ -213,7 +213,7 @@
 
     <div class="story-title">
         <h3>Scenario:</h3>
-        <div class="scenario">Is the home page<br>Login: &lt;user&gt;, &lt;password&gt;<br>Check you are logged in<br>Logout</div>
+        <div class="scenario">Is the home page<br>Click login button<br>Login: &lt;user&gt;, &lt;password&gt;<br>Check wrong username<br>Click submit button</div>
     </div>
 
     <div id="beforetable"></div>
@@ -244,7 +244,7 @@
                 </div>
                 <div class="card-body">
                     <div>
-                        <pre>com.pages.LoginPage.typeUser(LoginPage.java:36)<br />com.steps.serenity.LoginSteps.typeUser(LoginSteps.java:12)<br />com.steps.serenity.LoginSteps.login(LoginSteps.java:47)<br />com.features.search.LoginTest.loginTestSuccessful(LoginTest.java:36)<br /></pre>
+                        <pre>com.pages.LoginPage.clickSubmitButton(LoginPage.java:48)<br />com.steps.serenity.LoginSteps.clickSubmitButton(LoginSteps.java:35)<br />com.features.search.LoginTest.loginTestFailed(LoginTest.java:49)<br /></pre>
                     </div>
 
                 </div>
@@ -254,39 +254,47 @@
 
 
                 <div class="panel-body">
-                    <a href="pagesource12833693942387911921.html.txt" target="_blank" class="btn btn-info">HTML Source</a>
+                    <a href="pagesource10799538036174452883.html.txt" target="_blank" class="btn btn-info">HTML Source</a>
                 </div>
             </div>
         <div class="slider-wrapper theme-default">
             <div id="slider">
-                <img src="8633199258840b7c23c7c8fd662ac58ff93aff09cdb8479addd46d4bb835e5ff.png" title=" Login test successful " width="800"/>
-                <img src="8633199258840b7c23c7c8fd662ac58ff93aff09cdb8479addd46d4bb835e5ff.png" title=" Is the home page" width="800"/>
-                <img src="3a1d250130ba88866e0748367537bf8a124f29e7cad4dbd0091ef1efdf70542a.png" title=" Is the home page (completed)" width="800"/>
-                <img src="3a1d250130ba88866e0748367537bf8a124f29e7cad4dbd0091ef1efdf70542a.png" title=" Login: Tmir2624, Tmir262412345" width="800"/>
-                <img src="8633199258840b7c23c7c8fd662ac58ff93aff09cdb8479addd46d4bb835e5ff.png" title=" Click login button" width="800"/>
-                <img src="8633199258840b7c23c7c8fd662ac58ff93aff09cdb8479addd46d4bb835e5ff.png" title=" Type user: Tmir2624" width="800"/>
-                <img src="8633199258840b7c23c7c8fd662ac58ff93aff09cdb8479addd46d4bb835e5ff.png" title=" Type user: Tmir2624 (completed)" width="800"/>
-                <img src="ac13389cebd62bf862159a66dcd27a859392b2a0149edadcade3f039e49b3b48.png" title=" Login test successful " width="800"/>
-                <img src="ac13389cebd62bf862159a66dcd27a859392b2a0149edadcade3f039e49b3b48.png" title=" Is the home page" width="800"/>
-                <img src="f98cc3f5d6e9438f3f1152c3c60eb97c859aa5e91f2a6f07b65fcfaf12c31036.png" title=" Is the home page (completed)" width="800"/>
-                <img src="6c5893c59a0cf6209e847396931a4a3d631e4a159ec1d6a2d4e2f2c774cb9e11.png" title=" Login: cont, parola" width="800"/>
+                <img src="2f508b4f8b00c6c19578533db9ad69e683b6885ee933eeee1d89b090c62ea31a.png" title=" Login test failed " width="800"/>
+                <img src="2f508b4f8b00c6c19578533db9ad69e683b6885ee933eeee1d89b090c62ea31a.png" title=" Is the home page" width="800"/>
+                <img src="923d0b8465a37d9f5a7bdd2ddedfe1b6504268ef1c111718e79da6d53f685a78.png" title=" Click login button" width="800"/>
+                <img src="6c5893c59a0cf6209e847396931a4a3d631e4a159ec1d6a2d4e2f2c774cb9e11.png" title=" Login: Tmir2624, Tmir262412345" width="800"/>
                 <img src="6c5893c59a0cf6209e847396931a4a3d631e4a159ec1d6a2d4e2f2c774cb9e11.png" title=" Click login button" width="800"/>
-                <img src="6c5893c59a0cf6209e847396931a4a3d631e4a159ec1d6a2d4e2f2c774cb9e11.png" title=" Type user: cont" width="800"/>
+                <img src="6c5893c59a0cf6209e847396931a4a3d631e4a159ec1d6a2d4e2f2c774cb9e11.png" title=" Type user: Tmir2624" width="800"/>
+                <img src="4f1517abc885fec4c12d20aa3b9545bd015bac3f71b482f6b70c1cff8af0e911.png" title=" Type user: Tmir2624 (completed)" width="800"/>
+                <img src="4f1517abc885fec4c12d20aa3b9545bd015bac3f71b482f6b70c1cff8af0e911.png" title=" Type password: Tmir262412345" width="800"/>
+                <img src="499d0a562da362c6c015cb0f9c9849c3e0d5ca3dfd5ecf08fd4fb234d7343788.png" title=" Type password: Tmir262412345 (completed)" width="800"/>
+                <img src="499d0a562da362c6c015cb0f9c9849c3e0d5ca3dfd5ecf08fd4fb234d7343788.png" title=" Click submit button" width="800"/>
+                <img src="8633199258840b7c23c7c8fd662ac58ff93aff09cdb8479addd46d4bb835e5ff.png" title=" Click submit button (completed)" width="800"/>
+                <img src="8633199258840b7c23c7c8fd662ac58ff93aff09cdb8479addd46d4bb835e5ff.png" title=" Login: Tmir2624, Tmir262412345 (completed)" width="800"/>
+                <img src="8633199258840b7c23c7c8fd662ac58ff93aff09cdb8479addd46d4bb835e5ff.png" title=" Check wrong username" width="800"/>
+                <img src="8633199258840b7c23c7c8fd662ac58ff93aff09cdb8479addd46d4bb835e5ff.png" title=" Click submit button" width="800"/>
+                <img src="2f508b4f8b00c6c19578533db9ad69e683b6885ee933eeee1d89b090c62ea31a.png" title=" Login test failed " width="800"/>
+                <img src="2f508b4f8b00c6c19578533db9ad69e683b6885ee933eeee1d89b090c62ea31a.png" title=" Is the home page" width="800"/>
+                <img src="307737db2ff29ee9f4e2664fb2ff4874c57b42f0ed9237bf7b33718fe8bda3bc.png" title=" Click login button" width="800"/>
+                <img src="323da80b63d7cb9620292f2b5582d80f5196477bf72f07c635f890a70a37ed0e.png" title=" Login: cont, parola" width="800"/>
+                <img src="323da80b63d7cb9620292f2b5582d80f5196477bf72f07c635f890a70a37ed0e.png" title=" Click login button" width="800"/>
+                <img src="c4caeb311371b87187d810793bb7f2d3b21aae60d6d96ed3ae0b6e85f52fab8f.png" title=" Click login button (completed)" width="800"/>
+                <img src="c4caeb311371b87187d810793bb7f2d3b21aae60d6d96ed3ae0b6e85f52fab8f.png" title=" Type user: cont" width="800"/>
                 <img src="a0c004b470e7c9f2e66ec3f116c979dafe432a2676cca58b4ab3909bf51c4162.png" title=" Type user: cont (completed)" width="800"/>
                 <img src="a0c004b470e7c9f2e66ec3f116c979dafe432a2676cca58b4ab3909bf51c4162.png" title=" Type password: parola" width="800"/>
                 <img src="0d2f49adb1b8b51120e9027a378436af4156cfde9f61d41d0792d81f9aea3f8a.png" title=" Type password: parola (completed)" width="800"/>
                 <img src="0d2f49adb1b8b51120e9027a378436af4156cfde9f61d41d0792d81f9aea3f8a.png" title=" Click submit button" width="800"/>
-                <img src="322cf49a85682994c6b5313ebc8a33a65a107cdcbb2c44815376b7ae7c244408.png" title=" Click submit button (completed)" width="800"/>
-                <img src="322cf49a85682994c6b5313ebc8a33a65a107cdcbb2c44815376b7ae7c244408.png" title=" Login: cont, parola (completed)" width="800"/>
-                <img src="322cf49a85682994c6b5313ebc8a33a65a107cdcbb2c44815376b7ae7c244408.png" title=" Check you are logged in" width="800"/>
-                <img src="0ba4dd3db874397cec1752a80029cbc3d96721b4e4d012cf16b41002971c4d40.png" title=" Login test successful " width="800"/>
-                <img src="0ba4dd3db874397cec1752a80029cbc3d96721b4e4d012cf16b41002971c4d40.png" title=" Is the home page" width="800"/>
-                <img src="d7dfd87eb4985f6d3601ee226d806b76bcb5e51c4ba18389b146e2580eddc4e2.png" title=" Is the home page (completed)" width="800"/>
-                <img src="d7dfd87eb4985f6d3601ee226d806b76bcb5e51c4ba18389b146e2580eddc4e2.png" title=" Login: , &lt;null&gt;" width="800"/>
-                <img src="6c5893c59a0cf6209e847396931a4a3d631e4a159ec1d6a2d4e2f2c774cb9e11.png" title=" Click login button" width="800"/>
-                <img src="6c5893c59a0cf6209e847396931a4a3d631e4a159ec1d6a2d4e2f2c774cb9e11.png" title=" Type user: " width="800"/>
-                <img src="6c5893c59a0cf6209e847396931a4a3d631e4a159ec1d6a2d4e2f2c774cb9e11.png" title=" Type user:  (completed)" width="800"/>
-                <img src="6c5893c59a0cf6209e847396931a4a3d631e4a159ec1d6a2d4e2f2c774cb9e11.png" title=" Type password: &lt;null&gt;" width="800"/>
+                <img src="e6798db5dc493d615e51915ec4d5a84c4d9a4a26062ddbc13694e39f099421f1.png" title=" Click submit button (completed)" width="800"/>
+                <img src="e6798db5dc493d615e51915ec4d5a84c4d9a4a26062ddbc13694e39f099421f1.png" title=" Login: cont, parola (completed)" width="800"/>
+                <img src="ac13389cebd62bf862159a66dcd27a859392b2a0149edadcade3f039e49b3b48.png" title=" Check wrong username" width="800"/>
+                <img src="9d682b468f719ff7c8d5a1fe731d396df5e6d1d2a711288b3c87934ad1754784.png" title=" Login test failed " width="800"/>
+                <img src="9d682b468f719ff7c8d5a1fe731d396df5e6d1d2a711288b3c87934ad1754784.png" title=" Is the home page" width="800"/>
+                <img src="923d0b8465a37d9f5a7bdd2ddedfe1b6504268ef1c111718e79da6d53f685a78.png" title=" Click login button" width="800"/>
+                <img src="923d0b8465a37d9f5a7bdd2ddedfe1b6504268ef1c111718e79da6d53f685a78.png" title=" Login: , &lt;null&gt;" width="800"/>
+                <img src="dfe7f35e49654779e36f398b961bb1e6dcb3e85f51b4f903aeb5fef1ee5c1d24.png" title=" Click login button" width="800"/>
+                <img src="dfe7f35e49654779e36f398b961bb1e6dcb3e85f51b4f903aeb5fef1ee5c1d24.png" title=" Type user: " width="800"/>
+                <img src="dfe7f35e49654779e36f398b961bb1e6dcb3e85f51b4f903aeb5fef1ee5c1d24.png" title=" Type user:  (completed)" width="800"/>
+                <img src="dfe7f35e49654779e36f398b961bb1e6dcb3e85f51b4f903aeb5fef1ee5c1d24.png" title=" Type password: &lt;null&gt;" width="800"/>
                 <img src="0ba4dd3db874397cec1752a80029cbc3d96721b4e4d012cf16b41002971c4d40.png" title=" Type password: &lt;null&gt; (completed): <span class='error-color'>ERROR</span>" width="800"/>
             </div>
         </div>

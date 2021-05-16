@@ -1,0 +1,5 @@
+com\steps\serenity\LoginSteps.class
+com\pages\HeaderPage.class
+com\features\search\LoginTest.class
+com\pages\LoginPage.class
+com\steps\serenity\HeaderSteps.class

@@ -1,0 +1,60 @@
+-------------------------------------------------------------------------------
+Test set: com.features.search.LoginTest
+-------------------------------------------------------------------------------
+Tests run: 8, Failures: 0, Errors: 8, Skipped: 0, Time elapsed: 232.148 s <<< FAILURE! - in com.features.search.LoginTest
+com.features.search.LoginTest.loginTestFailed[0]  Time elapsed: 45.868 s  <<< ERROR!
+net.thucydides.core.webdriver.exceptions.ElementShouldBeEnabledException: 
+Expected enabled element was not enabled
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-ID529IK', ip: '192.168.0.106', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '14.0.2'
+Driver info: driver.version: unknown
+	at lab5@1.0/com.features.search.LoginTest.loginTestFailed(LoginTest.java:49)
+
+com.features.search.LoginTest.loginTestSuccessful[0]  Time elapsed: 48.307 s  <<< ERROR!
+net.thucydides.core.webdriver.exceptions.ElementShouldBeEnabledException: 
+Expected enabled element was not enabled
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-ID529IK', ip: '192.168.0.106', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '14.0.2'
+Driver info: driver.version: unknown
+	at lab5@1.0/com.features.search.LoginTest.loginTestSuccessful(LoginTest.java:36)
+
+com.features.search.LoginTest.loginTestFailed[1]  Time elapsed: 59.039 s  <<< ERROR!
+org.openqa.selenium.NoSuchElementException: 
+Timed out after 20 seconds. Element not found
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-ID529IK', ip: '192.168.0.106', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '14.0.2'
+Driver info: driver.version: unknown
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-ID529IK', ip: '192.168.0.106', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '14.0.2'
+Driver info: driver.version: unknown
+	at lab5@1.0/com.features.search.LoginTest.loginTestFailed(LoginTest.java:48)
+
+com.features.search.LoginTest.loginTestSuccessful[1]  Time elapsed: 50.394 s  <<< ERROR!
+org.openqa.selenium.NoSuchElementException: 
+Timed out after 20 seconds. Element not found
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-ID529IK', ip: '192.168.0.106', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '14.0.2'
+Driver info: driver.version: unknown
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-ID529IK', ip: '192.168.0.106', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '14.0.2'
+Driver info: driver.version: unknown
+	at lab5@1.0/com.features.search.LoginTest.loginTestSuccessful(LoginTest.java:37)
+
+Test mechanism  Time elapsed: 0.672 s  <<< ERROR!
+java.lang.NullPointerException
+
+com.features.search.LoginTest.loginTestFailed[2]  Time elapsed: 7.232 s  <<< ERROR!
+java.lang.IllegalArgumentException: Keys to send should be a not null CharSequence
+	at lab5@1.0/com.features.search.LoginTest.loginTestFailed(LoginTest.java:47)
+
+Test mechanism  Time elapsed: 0.66 s  <<< ERROR!
+java.lang.NullPointerException
+
+com.features.search.LoginTest.loginTestSuccessful[2]  Time elapsed: 4.201 s  <<< ERROR!
+java.lang.IllegalArgumentException: Keys to send should be a not null CharSequence
+	at lab5@1.0/com.features.search.LoginTest.loginTestSuccessful(LoginTest.java:36)
+
