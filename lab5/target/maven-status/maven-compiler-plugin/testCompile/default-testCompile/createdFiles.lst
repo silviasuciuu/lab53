@@ -1,5 +1,11 @@
 com\steps\serenity\LoginSteps.class
+com\pages\EmailPage.class
+com\steps\serenity\HeaderSteps.class
+com\features\search\package-info.class
+com\steps\serenity\EndUserSteps.class
+com\features\search\SendMessageTest.class
 com\pages\HeaderPage.class
 com\features\search\LoginTest.class
 com\pages\LoginPage.class
-com\steps\serenity\HeaderSteps.class
+com\steps\serenity\EmailSteps.class
+com\pages\DictionaryPage.class

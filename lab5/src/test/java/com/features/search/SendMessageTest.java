@@ -1,5 +1,6 @@
 package com.features.search;
 
+import com.steps.serenity.EmailSteps;
 import com.steps.serenity.EndUserSteps;
 import com.steps.serenity.HeaderSteps;
 import com.steps.serenity.LoginSteps;
@@ -15,9 +16,9 @@ import org.junit.runner.RunWith;
 import org.openqa.selenium.WebDriver;
 
 @RunWith(SerenityParameterizedRunner.class)
-@UseTestDataFrom("src/test/resources/LoginTestData.csv")
-public class LoginTest {
-
+@UseTestDataFrom("src/test/resources/EmailTestData.csv")
+public class SendMessageTest {
+    /*
     @Managed(uniqueSession = true)
     public WebDriver webdriver;
 
@@ -25,27 +26,23 @@ public class LoginTest {
     public LoginSteps anna;
 
     @Steps
-            public HeaderSteps checks;
+    public EmailSteps emailSteps;
 
-    String user,password;
+    String to,subject,message,username,password;
 
-    @Issue("#Login-Success")
+    @Issue("#Email-Success")
     @Test
-    public void loginTestSuccessful(){
+    public void emailTest(){
         anna.is_the_home_page();
-        anna.login(user,password);
-       // checks.checkYouAreLoggedIn();
-        anna.logout();
-
+       // anna.login(username,password);
+      //  emailSteps.send(to,subject,message);
+       // anna.logout();
+       // Assert.assertTrue(true);
     }
 
-  /*  @Issue("#Login-Fail")
-    @Test
-    public void loginTestFailed(){
-        anna.is_the_home_page();
-        anna.login(user,password);
-       // checks.checkWrongUsername();
-        anna.clickSubmitButton();
 
-    }*/
+
+
+     */
+
 }

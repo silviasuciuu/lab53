@@ -8,7 +8,7 @@ public class HeaderSteps {
     HeaderPage headerPage;
     @Step
     public void checkYouAreLoggedIn() {
-        Assert.assertTrue("You are not logged in", headerPage.isAccountButtonVisible());
+        Assert.assertTrue("You are not logged in", headerPage.isLogoutButtonVisible());
     }
     @Step
     public void checkWrongUsername() {

@@ -15,21 +15,22 @@ import net.thucydides.core.pages.PageObject;
 
 import java.util.List;
 
-@DefaultUrl("http://en.wiktionary.org/wiki/Wiktionary")
+@DefaultUrl("https://www.saucedemo.com/")
 public class LoginPage extends PageObject {
-    @FindBy(name="wpName")
+    @FindBy(id="user-name")
     private WebElementFacade userInput;
 
-    @FindBy(name="wpPassword")
+    @FindBy(id="password")
     private WebElementFacade passwordInput;
 
-    @FindBy(name="wploginattempt")
+    @FindBy(id="login-button")
     private WebElementFacade loginSubmit;
 
-    @FindBy(id="pt-login")
-    private WebElementFacade loginButton;
+    @FindBy(id = "react-burger-menu-btn")
+    private WebElementFacade MenuButton;
 
-    @FindBy(id="pt-logout")
+
+    @FindBy(id="logout_sidebar_link")
     private WebElementFacade logoutButton;
 
     public void typeUser(String username){
@@ -38,10 +39,6 @@ public class LoginPage extends PageObject {
 
     public void typePassword(String password){
         passwordInput.type(password);
-    }
-
-    public void clickLoginButton(){
-        loginButton.click();
     }
 
     public void clickSubmitButton(){
@@ -53,12 +50,8 @@ public class LoginPage extends PageObject {
 
     }
 
-    @FindBy(id="pt-userpage")
-    private WebElement accountButton;
-    public boolean isAccountButtonVisible() {
-        getDriver().manage().timeouts().implicitlyWait(20, TimeUnit.SECONDS);
-        return accountButton.isDisplayed();
+    public void clickMenuButton() {
+        MenuButton.click();
     }
-
 
 }

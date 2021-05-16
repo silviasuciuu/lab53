@@ -1,3 +1,2 @@
 "Story","Title","Result","Date","Stability","Duration (s)"
-"Search by keyword story","Searching by keyword banana should display the corresponding article","SUCCESS","2021-05-15T15:20:32.6467733+03:00[Europe/Chisinau]","0.0","17.05"
-"Search by keyword story","Searching by keyword apple should display the corresponding article","SUCCESS","2021-05-15T15:20:52.8207609+03:00[Europe/Chisinau]","0.0","10.2"
+"Login test","Login test successful","SUCCESS","2021-05-16T23:47:39.2148536+03:00[Europe/Athens]","0.0","22.55"

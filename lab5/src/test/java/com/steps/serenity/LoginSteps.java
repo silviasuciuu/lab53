@@ -17,10 +17,11 @@ public class LoginSteps {
         loginPage.typePassword(password);
     }
 
+
     @Step
-    public void clickLoginButton()
+    public void clickMenuButton()
     {
-        loginPage.clickLoginButton();
+        loginPage.clickMenuButton();
     }
 
     @Step
@@ -43,7 +44,7 @@ public class LoginSteps {
 
     @Step
     public void login(String username,String password){
-           clickLoginButton();
+
             typeUser(username);
             typePassword(password);
             clickSubmitButton();
@@ -51,6 +52,7 @@ public class LoginSteps {
 
     @Step
     public void logout(){
+        clickMenuButton();
         clickLogoutButton();
     }
 

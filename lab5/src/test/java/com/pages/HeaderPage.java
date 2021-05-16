@@ -16,20 +16,29 @@ import net.thucydides.core.pages.PageObject;
 import java.util.List;
 
 public class HeaderPage extends PageObject {
-    @FindBy(id="pt-logout")
-    private WebElementFacade logoutButton;
 
-    @FindBy(id="pt-userpage")
-    private WebElement accountButton;
-    public boolean isAccountButtonVisible() {
+
+    @FindBy(id = "rcmbtn103")
+    private WebElementFacade logoutButton;
+    @FindBy(id="rcmloginsubmit")
+    private WebElementFacade loginButton;
+
+
+
+    public boolean isLogoutButtonVisible() {
         getDriver().manage().timeouts().implicitlyWait(20, TimeUnit.SECONDS);
-        return accountButton.isDisplayed();
+        return logoutButton.isDisplayed();
     }
-    @FindBy(css="#pt-userpage")
+
+    @FindBy(css = "#warning")
     private WebElement incorrectAlert;
+
     public boolean isAccountIncorrect() {
-        getDriver().manage().timeouts().implicitlyWait(20, TimeUnit.SECONDS);
+        getDriver().manage().timeouts().implicitlyWait(2, TimeUnit.SECONDS);
         return incorrectAlert.isDisplayed();
+    }
+    public void clickLoginButton() {
+        loginButton.click();
     }
 
 }
