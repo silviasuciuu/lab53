@@ -34,7 +34,7 @@ public class LoginTest {
     public void loginTestSuccessful(){
         anna.is_the_home_page();
         anna.login(user,password);
-       // checks.checkYouAreLoggedIn();
+        checks.checkYouAreLoggedIn();
         anna.logout();
 
     }

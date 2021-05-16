@@ -1,2 +1,2 @@
 "Story","Title","Result","Date","Stability","Duration (s)"
-"Login test","Login test successful","ERROR","2021-05-16T23:44:15.6297688+03:00[Europe/Athens]","0.0","13.25"
+"Login test","Login test successful","FAILURE","2021-05-17T00:28:20.0954338+03:00[Europe/Athens]","0.0","13.19"

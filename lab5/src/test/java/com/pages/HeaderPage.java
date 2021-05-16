@@ -18,9 +18,9 @@ import java.util.List;
 public class HeaderPage extends PageObject {
 
 
-    @FindBy(id = "rcmbtn103")
+    @FindBy(id = "react-burger-menu-btn")
     private WebElementFacade logoutButton;
-    @FindBy(id="rcmloginsubmit")
+    @FindBy(id="login-button")
     private WebElementFacade loginButton;
 
 
@@ -30,7 +30,7 @@ public class HeaderPage extends PageObject {
         return logoutButton.isDisplayed();
     }
 
-    @FindBy(css = "#warning")
+    @FindBy(css = "#error-button")
     private WebElement incorrectAlert;
 
     public boolean isAccountIncorrect() {

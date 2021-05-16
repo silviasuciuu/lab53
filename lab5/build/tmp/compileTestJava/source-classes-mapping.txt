@@ -1,22 +1,26 @@
-com/steps/serenity/HeaderSteps.java
- com.steps.serenity.HeaderSteps
-com/pages/HeaderPage.java
- com.pages.HeaderPage
-com/features/search/package-info.java
- com.features.search.package-info
-com/pages/EmailPage.java
- com.pages.EmailPage
 com/steps/serenity/EndUserSteps.java
  com.steps.serenity.EndUserSteps
+com/pages/DictionaryPage.java
+ com.pages.DictionaryPage
+com/features/search/package-info.java
+ com.features.search.package-info
+com/steps/serenity/HeaderSteps.java
+ com.steps.serenity.HeaderSteps
+com/pages/AddToCartPage.java
+ com.pages.AddToCartPage
+com/pages/HeaderPage.java
+ com.pages.HeaderPage
+com/steps/serenity/AddToCartSteps.java
+ com.steps.serenity.AddToCartSteps
+com/pages/EmailPage.java
+ com.pages.EmailPage
 com/pages/LoginPage.java
  com.pages.LoginPage
 com/steps/serenity/EmailSteps.java
  com.steps.serenity.EmailSteps
-com/features/search/LoginTest.java
- com.features.search.LoginTest
-com/features/search/SendMessageTest.java
- com.features.search.SendMessageTest
+com/features/search/AddToCartTest.java
+ com.features.search.AddToCartTest
 com/steps/serenity/LoginSteps.java
  com.steps.serenity.LoginSteps
-com/pages/DictionaryPage.java
- com.pages.DictionaryPage
+com/features/search/LoginTest.java
+ com.features.search.LoginTest

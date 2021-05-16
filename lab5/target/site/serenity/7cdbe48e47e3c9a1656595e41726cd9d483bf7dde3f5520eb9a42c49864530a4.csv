@@ -1,2 +1,3 @@
 "Story","Title","Result","Date","Stability","Duration (s)"
 "Send message test","Email test","ERROR","2021-05-16T23:06:23.3192115+03:00[Europe/Athens]","0.0","47.82"
+"Add to cart test","Email test","FAILURE","2021-05-17T00:32:26.0717876+03:00[Europe/Athens]","0.0","20.48"
